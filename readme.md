@@ -5,7 +5,7 @@ Basic ESLint rules preset.
 ## Installation
 
 ```shell
-npm i -D @codegoods/eslint-config
+npm i -D @codegoods/eslint-base
 ```
 
 ## Usage
