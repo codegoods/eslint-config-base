@@ -1,6 +1,6 @@
 {
   "name": "@codegoods/eslint-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint sharable configuration file",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/codegoods/eslint-base/issues"
   },
-  "homepage": "https://github.com/codegoods/eslint-base#readme"
+  "homepage": "https://github.com/codegoods/eslint-base#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
