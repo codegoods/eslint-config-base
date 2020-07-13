@@ -6,32 +6,35 @@ module.exports = {
     'brace-style': ['error', 'stroustrup'],
     'computed-property-spacing': 'error',
     'comma-dangle': ['warn', 'always-multiline'],
-    'camelcase': ['error', 'always'],
+    'camelcase': ['error'],
     'curly': 'error',
     'eol-last': 'error',
     'eqeqeq': ['error', 'smart'],
     'indent': ['error', 2, {
-      'MemberExpression': 0
+      MemberExpression: 0,
     }],
-    'keyword-spacing': ['error', {'before': true, 'after': true}],
+    'keyword-spacing': ['error', {
+      before: true,
+      after: true,
+    }],
     'max-depth': ['warn', 5],
     'max-statements': ['warn', 40],
     'max-len': 'off',
     'new-cap': 'warn',
     'no-extend-native': 'error',
     'no-mixed-spaces-and-tabs': 'error',
-    'no-multiple-empty-lines': ['error', {'max': 1}],
+    'no-multiple-empty-lines': ['error', {max: 1}],
     'no-trailing-spaces': 'error',
     'no-throw-literal': 'error',
     'no-use-before-define': 'off',
     'no-undefined': 'error',
     'no-undef': 'error',
     'no-unused-vars': ['warn', {
-      'vars': 'all',
-      'args': 'after-used',
-      'caughtErrors': 'all',
-      'argsIgnorePattern': '^_',
-      'caughtErrorsIgnorePattern': '^_'
+      vars: 'all',
+      args: 'after-used',
+      caughtErrors: 'all',
+      argsIgnorePattern: '^_',
+      caughtErrorsIgnorePattern: '^_',
     }],
     'no-nested-ternary': 'error',
     'no-underscore-dangle': 'error',
@@ -41,9 +44,9 @@ module.exports = {
     'quotes': ['error', 'single', 'avoid-escape'],
     'semi': ['error', 'never'],
     'space-unary-ops': ['off', {
-      'words': true,
-      'nonwords': false
+      words: true,
+      nonwords: false,
     }],
-    'valid-jsdoc': 'warn'
-  }
+    'valid-jsdoc': 'warn',
+  },
 }
