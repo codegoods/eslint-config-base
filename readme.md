@@ -1,20 +1,20 @@
-# CodeGoods ESLint Base
+# CodeGoods ESLint Config Base
 
 Basic ESLint rules preset.
 
 ## Installation
 
 ```shell
-npm i -D @codegoods/eslint-base
+npm i -D @codegoods/eslint-config-base
 ```
 
 ## Usage
 
-Create your `eslintrc.json` and extend CodeGoods' one.
+Create your `.eslintrc.json` and extend CodeGoods' one.
 
 ```json
 {
-  "extends": "@codegoods/eslint-base",
+  "extends": "@codegoods/base",
 }
 ```
 
