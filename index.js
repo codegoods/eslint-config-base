@@ -23,7 +23,9 @@ module.exports = {
     'new-cap': 'warn',
     'no-extend-native': 'error',
     'no-mixed-spaces-and-tabs': 'error',
-    'no-multiple-empty-lines': ['error', {max: 1}],
+    'no-multiple-empty-lines': ['error', {
+      max: 1,
+    }],
     'no-trailing-spaces': 'error',
     'no-throw-literal': 'error',
     'no-use-before-define': 'off',
