@@ -70,7 +70,10 @@ module.exports = {
     }],
     'no-nested-ternary': 'error',
     'no-return-assign': 'error',
-    'no-underscore-dangle': 'error',
+    'no-underscore-dangle': ['error', {
+      allowAfterThis: true,
+      allowAfterSuper: true,
+    }],
     'no-shadow': 'warn',
     'object-curly-spacing': ['error', 'never'],
     'one-var': ['error', 'never'],
