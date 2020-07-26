@@ -1,6 +1,15 @@
 
 # Configure rules
 
+Rule status:
+* 🔴 – Error.
+* 🟠 – Warning.
+* 🟢 - Ok.
+
+Special marks:
+* ❓– Requres resolution.
+* 🔘 – Provided by eslint recommended rules.
+
 ## Possible Errors
 
 - [ ] [for-direction](https://eslint.org/docs/rules/for-direction)
