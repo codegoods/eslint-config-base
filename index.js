@@ -20,16 +20,16 @@ module.exports = {
     'default-case': ['error'],
     'default-case-last': ['error'],
     'dot-location': ['error', 'property'],
-    'dot-notation': ['error', { 'allowPattern': '^[a-z_]*_[a-z_]*$' }],
+    'dot-notation': ['error', {
+      allowPattern: '^[a-z_]*_[a-z_]*$',
+    }],
     'eol-last': 'error',
     'eqeqeq': ['error', 'smart'],
     'func-call-spacing': ['error', 'never'],
     'func-style': ['error', 'declaration'],
     'function-call-argument-newline': ['error', 'consistent'],
     'function-paren-newline': ['error', 'consistent'],
-    'grouped-accessor-pairs': ['error', {
-      getBeforeSet: true,
-    }],
+    'grouped-accessor-pairs': ['error', 'getBeforeSet'],
     'implicit-arrow-linebreak': ['error', 'beside'],
     'indent': ['error', 2, {
       MemberExpression: 0,
@@ -75,8 +75,7 @@ module.exports = {
     'no-labels': 'off',
     'no-lonely-if': 'error',
     'no-loop-func': 'warn',
-    'no-loose-of-precision': 'error',
-    'no-magic-numbers': 'warn',
+    'no-loss-of-precision': 'error',
     'no-mixed-operators': ['error', {
       allowSamePrecedence: true,
     }],

@@ -99,7 +99,7 @@ Special marks:
 - 🟢 [no-labels](https://eslint.org/docs/rules/no-labels)
 - ⚪️ [no-lone-blocks](https://eslint.org/docs/rules/no-lone-blocks)
 - 🟡 [no-loop-func](https://eslint.org/docs/rules/no-loop-func)
-- 🟡 [no-magic-numbers](https://eslint.org/docs/rules/no-magic-numbers)
+- ⚪️ [no-magic-numbers](https://eslint.org/docs/rules/no-magic-numbers)
 - 🔴 [no-multi-spaces](https://eslint.org/docs/rules/no-multi-spaces)
 - 🔴 [no-multi-str](https://eslint.org/docs/rules/no-multi-str)
 - 🔴 [no-new](https://eslint.org/docs/rules/no-new)
