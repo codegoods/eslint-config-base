@@ -4,58 +4,58 @@
 Rule status:
 * 🔴 – Error.
 * 🟠 – Warning.
-* 🟢 - Ok.
-* ⚪️ - Unspecified.
+* 🟢 – Ok.
+* ⚪️ – Unspecified.
 
 Special marks:
 * ❓– Requres resolution. Could be changed in the next versions.
-* ✔️ – Provided by eslint recommended rules.
+* ✔ – Provided by eslint recommended rules.
 
 ## Possible Errors
 
 - 🟢✔️❓ [for-direction](https://eslint.org/docs/rules/for-direction)
-- 🔴✔️ [getter-return](https://eslint.org/docs/rules/getter-return)
-- 🔴✔️ [no-async-promise-executor](https://eslint.org/docs/rules/no-async-promise-executor)
-- [no-await-in-loop](https://eslint.org/docs/rules/no-await-in-loop)
-- [no-compare-neg-zero](https://eslint.org/docs/rules/no-compare-neg-zero)
-- [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign)
-- [no-console](https://eslint.org/docs/rules/no-console)
-- [no-constant-condition](https://eslint.org/docs/rules/no-constant-condition)
-- [no-control-regex](https://eslint.org/docs/rules/no-control-regex)
-- [no-debugger](https://eslint.org/docs/rules/no-debugger)
-- [no-dupe-args](https://eslint.org/docs/rules/no-dupe-args)
-- [no-dupe-else-if](https://eslint.org/docs/rules/no-dupe-else-if)
-- [no-dupe-keys](https://eslint.org/docs/rules/no-dupe-keys)
-- [no-duplicate-case](https://eslint.org/docs/rules/no-duplicate-case)
-- [no-empty](https://eslint.org/docs/rules/no-empty)
-- [no-empty-character-class](https://eslint.org/docs/rules/no-empty-character-class)
-- [no-ex-assign](https://eslint.org/docs/rules/no-ex-assign)
-- [no-extra-boolean-cast](https://eslint.org/docs/rules/no-extra-boolean-cast)
-- [no-extra-parens](https://eslint.org/docs/rules/no-extra-parens)
-- [no-extra-semi](https://eslint.org/docs/rules/no-extra-semi)
-- [no-func-assign](https://eslint.org/docs/rules/no-func-assign)
-- [no-import-assign](https://eslint.org/docs/rules/no-import-assign)
-- [no-inner-declarations](https://eslint.org/docs/rules/no-inner-declarations)
-- [no-invalid-regexp](https://eslint.org/docs/rules/no-invalid-regexp)
-- [no-irregular-whitespace](https://eslint.org/docs/rules/no-irregular-whitespace)
+- 🔴✔ [getter-return](https://eslint.org/docs/rules/getter-return)
+- 🔴✔ [no-async-promise-executor](https://eslint.org/docs/rules/no-async-promise-executor)
+- ⚪️❓[no-await-in-loop](https://eslint.org/docs/rules/no-await-in-loop)
+- 🔴✔️❓[no-compare-neg-zero](https://eslint.org/docs/rules/no-compare-neg-zero)
+- 🔴✔ [no-cond-assign](https://eslint.org/docs/rules/no-cond-assign)
+- 🔴 [no-console](https://eslint.org/docs/rules/no-console)
+- 🔴✔ [no-constant-condition](https://eslint.org/docs/rules/no-constant-condition)
+- 🔴✔ [no-control-regex](https://eslint.org/docs/rules/no-control-regex)
+- 🔴✔ [no-debugger](https://eslint.org/docs/rules/no-debugger)
+- 🔴✔ [no-dupe-args](https://eslint.org/docs/rules/no-dupe-args)
+- 🔴✔ [no-dupe-else-if](https://eslint.org/docs/rules/no-dupe-else-if)
+- 🔴✔ [no-dupe-keys](https://eslint.org/docs/rules/no-dupe-keys)
+- 🔴✔ [no-duplicate-case](https://eslint.org/docs/rules/no-duplicate-case)
+- 🔴✔ [no-empty](https://eslint.org/docs/rules/no-empty)
+- 🔴✔ [no-empty-character-class](https://eslint.org/docs/rules/no-empty-character-class)
+- 🔴✔ [no-ex-assign](https://eslint.org/docs/rules/no-ex-assign)
+- 🔴 [no-extra-boolean-cast](https://eslint.org/docs/rules/no-extra-boolean-cast)
+- 🔴 [no-extra-parens](https://eslint.org/docs/rules/no-extra-parens)
+- 🔴✔ [no-extra-semi](https://eslint.org/docs/rules/no-extra-semi)
+- 🔴✔ [no-func-assign](https://eslint.org/docs/rules/no-func-assign)
+- 🔴✔ [no-import-assign](https://eslint.org/docs/rules/no-import-assign)
+- 🔴✔ [no-inner-declarations](https://eslint.org/docs/rules/no-inner-declarations)
+- 🔴✔ [no-invalid-regexp](https://eslint.org/docs/rules/no-invalid-regexp)
+- 🔴✔ [no-irregular-whitespace](https://eslint.org/docs/rules/no-irregular-whitespace)
 - 🔴 [no-loss-of-precision](https://eslint.org/docs/rules/no-loss-of-precision)
-- [no-misleading-character-class](https://eslint.org/docs/rules/no-misleading-character-class)
-- [no-obj-calls](https://eslint.org/docs/rules/no-obj-calls)
+- 🔴✔ [no-misleading-character-class](https://eslint.org/docs/rules/no-misleading-character-class)
+- 🔴✔ [no-obj-calls](https://eslint.org/docs/rules/no-obj-calls)
 - 🟠 [no-promise-executor-return](https://eslint.org/docs/rules/no-promise-executor-return)
-- [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins)
-- [no-regex-spaces](https://eslint.org/docs/rules/no-regex-spaces)
-- [no-setter-return](https://eslint.org/docs/rules/no-setter-return)
-- [no-sparse-arrays](https://eslint.org/docs/rules/no-sparse-arrays)
-- 🟢✔️ [no-template-curly-in-string](https://eslint.org/docs/rules/no-template-curly-in-string)
-- [no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)
+- 🔴✔ [no-prototype-builtins](https://eslint.org/docs/rules/no-prototype-builtins)
+- 🔴✔ [no-regex-spaces](https://eslint.org/docs/rules/no-regex-spaces)
+- 🔴✔ [no-setter-return](https://eslint.org/docs/rules/no-setter-return)
+- 🔴✔ [no-sparse-arrays](https://eslint.org/docs/rules/no-sparse-arrays)
+- ⚪️ [no-template-curly-in-string](https://eslint.org/docs/rules/no-template-curly-in-string)
+- 🔴✔ [no-unexpected-multiline](https://eslint.org/docs/rules/no-unexpected-multiline)
 - 🔴 [no-unreachable](https://eslint.org/docs/rules/no-unreachable)
 - 🔴 [no-unreachable-loop](https://eslint.org/docs/rules/no-unreachable-loop)
-- [no-unsafe-finally](https://eslint.org/docs/rules/no-unsafe-finally)
-- [no-unsafe-negation](https://eslint.org/docs/rules/no-unsafe-negation)
-- ⚪️ [no-useless-backreference](https://eslint.org/docs/rules/no-useless-backreference)
+- 🔴✔ [no-unsafe-finally](https://eslint.org/docs/rules/no-unsafe-finally)
+- 🔴✔ [no-unsafe-negation](https://eslint.org/docs/rules/no-unsafe-negation)
+- 🔴 [no-useless-backreference](https://eslint.org/docs/rules/no-useless-backreference)
 - 🟠 [require-atomic-updates](https://eslint.org/docs/rules/require-atomic-updates)
-- [use-isnan](https://eslint.org/docs/rules/use-isnan)
-- [valid-typeof](https://eslint.org/docs/rules/valid-typeof)
+- 🔴✔ [use-isnan](https://eslint.org/docs/rules/use-isnan)
+- 🔴✔ [valid-typeof](https://eslint.org/docs/rules/valid-typeof)
 
 ## Best practices
 
@@ -82,7 +82,7 @@ Special marks:
 - 🟢 [no-div-regex](https://eslint.org/docs/rules/no-div-regex)
 - 🟢 [no-else-return](https://eslint.org/docs/rules/no-else-return)
 - ⚪️ [no-empty-function](https://eslint.org/docs/rules/no-empty-function)
-- ⚪️✔️ [no-empty-pattern](https://eslint.org/docs/rules/no-empty-pattern)
+- ⚪️✔ [no-empty-pattern](https://eslint.org/docs/rules/no-empty-pattern)
 - ⚪️ [no-eq-null](https://eslint.org/docs/rules/no-eq-null)
 - 🔴 [no-eval](https://eslint.org/docs/rules/no-eval)
 - 🔴 [no-extend-native](https://eslint.org/docs/rules/no-extend-native)
@@ -141,17 +141,17 @@ Special marks:
 
 ## Variables
 
-- [init-declarations](https://eslint.org/docs/rules/init-declarations)
-- [no-delete-var](https://eslint.org/docs/rules/no-delete-var)
+- ⚪️ [init-declarations](https://eslint.org/docs/rules/init-declarations)
+- 🔴✔ [no-delete-var](https://eslint.org/docs/rules/no-delete-var)
 - 🔴 [no-label-var](https://eslint.org/docs/rules/no-label-var)
-- [no-restricted-globals](https://eslint.org/docs/rules/no-restricted-globals)
-- [no-shadow](https://eslint.org/docs/rules/no-shadow)
-- [no-shadow-restricted-names](https://eslint.org/docs/rules/no-shadow-restricted-names)
-- [no-undef](https://eslint.org/docs/rules/no-undef)
-- [no-undef-init](https://eslint.org/docs/rules/no-undef-init)
-- [no-undefined](https://eslint.org/docs/rules/no-undefined)
-- [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)
-- [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)
+- ⚪️ [no-restricted-globals](https://eslint.org/docs/rules/no-restricted-globals)
+- 🔴 [no-shadow](https://eslint.org/docs/rules/no-shadow)
+- 🔴✔ [no-shadow-restricted-names](https://eslint.org/docs/rules/no-shadow-restricted-names)
+- 🔴✔ [no-undef](https://eslint.org/docs/rules/no-undef)
+- 🔴 [no-undef-init](https://eslint.org/docs/rules/no-undef-init)
+- ⚪️ [no-undefined](https://eslint.org/docs/rules/no-undefined)
+- 🔴 [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)
+- 🔴 [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)
 
 ## Stylistic Issues
 
