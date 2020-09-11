@@ -4,9 +4,7 @@ module.exports = {
     'accessor-pairs': ['error', {
       setWithoutGet: true,
     }],
-    'array-bracket-newline': ['error', {
-      multiline: true,
-    }],
+    'array-bracket-newline': ['error', 'consistent'],
     'array-bracket-spacing': ['error', 'never'],
     'array-callback-return': ['error'],
     'array-element-newline': ['error', 'consistent'],
@@ -73,6 +71,7 @@ module.exports = {
     'lines-between-class-members': ['error', 'always'],
     'max-depth': ['warn', 5],
     'max-len': ['error', {
+      code: 120,
       ignoreComments: true,
       ignoreRegExpLiterals: true,
       ignoreStrings: true,
@@ -209,9 +208,6 @@ module.exports = {
     'semi-style': ['error', 'last'],
     'sort-imports': ['error', {
       allowSeparatedGroups: true,
-    }],
-    'sort-keys': ['error', 'asc', {
-      natural: true,
     }],
     'space-before-blocks': ['error', 'always'],
     'space-before-function-paren': ['error', {
