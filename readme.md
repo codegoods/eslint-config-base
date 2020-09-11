@@ -2,6 +2,8 @@
 
 Basic ESLint rules preset.
 
+> See complete rules list at [rules.md](./rules.md).
+
 ## Installation
 
 ```shell
