@@ -172,8 +172,8 @@ module.exports = {
       vars: 'all',
     }],
     'no-use-before-define': ['error', {
-      classes: true,
-      functions: true,
+      classes: false,
+      functions: false,
     }],
     'no-useless-backreference': 'error',
     'no-useless-call': 'warn',
