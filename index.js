@@ -68,7 +68,9 @@ module.exports = {
     }],
     'line-comment-position': ['error', 'above'],
     'linebreak-style': ['error', 'unix'],
-    'lines-between-class-members': ['error', 'always'],
+    'lines-between-class-members': ['error', 'always', {
+      exceptAfterSingleLine: true,
+    }],
     'max-depth': ['warn', 5],
     'max-len': ['error', {
       code: 120,
