@@ -1,27 +1,38 @@
 {
   "name": "@codegoods/eslint-config-base",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "ESLint sharable configuration file",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "rumkin <dev@rumk.in>",
+  "homepage": "https://github.com/codegoods/eslint-config-base",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codegoods/eslint-config-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codegoods/eslint-config-base/issues"
   },
   "keywords": [
     "eslint",
     "config",
     "eslint-config"
   ],
-  "author": "rumkin <dev@rumk.in>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codegoods/eslint-config-base/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c test/.eslintrc.json index.js",
+    "prepublishOnly": "npm run test"
   },
-  "homepage": "https://github.com/codegoods/eslint-config-base",
+  "files": [
+    "index.js",
+    "readme.md"
+  ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
   }
 }

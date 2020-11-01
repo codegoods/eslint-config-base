@@ -11,7 +11,9 @@ Special marks:
 * ❓– Requres resolution. Could be changed in the next versions.
 * ✔ – Provided by eslint recommended rules.
 
-## Possible Errors
+## ESLint Standard Rules
+
+### Possible Errors
 
 - 🟢✔️❓ [for-direction](https://eslint.org/docs/rules/for-direction)
 - 🔴✔ [getter-return](https://eslint.org/docs/rules/getter-return)
@@ -57,7 +59,7 @@ Special marks:
 - 🔴✔ [use-isnan](https://eslint.org/docs/rules/use-isnan)
 - 🔴✔ [valid-typeof](https://eslint.org/docs/rules/valid-typeof)
 
-## Best practices
+### Best practices
 
 - 🔴 [accessor-pairs](https://eslint.org/docs/rules/accessor-pairs)
 - 🔴 [array-callback-return](https://eslint.org/docs/rules/array-callback-return)
@@ -139,7 +141,7 @@ Special marks:
 - ⚪️ [wrap-iife](https://eslint.org/docs/rules/wrap-iife)
 - 🔴 [yoda](https://eslint.org/docs/rules/yoda)
 
-## Variables
+### Variables
 
 - ⚪️ [init-declarations](https://eslint.org/docs/rules/init-declarations)
 - 🔴✔ [no-delete-var](https://eslint.org/docs/rules/no-delete-var)
@@ -153,7 +155,7 @@ Special marks:
 - 🔴 [no-unused-vars](https://eslint.org/docs/rules/no-unused-vars)
 - 🔴 [no-use-before-define](https://eslint.org/docs/rules/no-use-before-define)
 
-## Stylistic Issues
+### Stylistic Issues
 
 - 🔴 [array-bracket-newline](https://eslint.org/docs/rules/array-bracket-newline)
 - 🔴 [array-bracket-spacing](https://eslint.org/docs/rules/array-bracket-spacing)
@@ -237,7 +239,7 @@ Special marks:
 - ⚪️ [semi-spacing](https://eslint.org/docs/rules/semi-spacing)
 - 🔴 [semi-style](https://eslint.org/docs/rules/semi-style)
 - ⚪️❓ [sort-keys](https://eslint.org/docs/rules/sort-keys)
-- 🔴 [sort-imports](https://eslint.org/docs/rules/sort-imports)
+- ⚪️ [sort-imports](https://eslint.org/docs/rules/sort-imports)
 - 🔴 [sort-vars](https://eslint.org/docs/rules/sort-vars)
 - 🔴 [space-before-blocks](https://eslint.org/docs/rules/space-before-blocks)
 - 🔴 [space-before-function-paren](https://eslint.org/docs/rules/space-before-function-paren)
@@ -249,3 +251,29 @@ Special marks:
 - 🔴 [template-tag-spacing](https://eslint.org/docs/rules/template-tag-spacing)
 - ⚪️ [unicode-bom](https://eslint.org/docs/rules/unicode-bom)
 - ⚪️ [wrap-regex](https://eslint.org/docs/rules/wrap-regex)
+
+## Import Plugin Rules
+
+- 🟡 [import/no-cycle](import/no-cycle)
+- 🔴 [import/no-useless-path-segments](import/no-useless-path-segments)
+- 🟢 [import/no-relative-parent-imports](import/no-relative-parent-imports)
+- 🔴 [import/no-deprecated](import/no-deprecated)
+- 🔴 [import/no-extraneous-dependencies](import/no-extraneous-dependencies)
+- 🔴 [import/no-mutable-exports](import/no-mutable-exports)
+- 🔴 [import/no-unused-modules](import/no-unused-modules)
+- ⚪️❓ [import/unambiguous](import/unambiguous)
+- 🔴 [import/no-commonjs](import/no-commonjs)
+- 🔴 [import/no-amd](import/no-amd)
+- ⚪️ [import/no-nodejs-modules](import/no-nodejs-modules)
+- 🔴 [import/first](import/first)
+- 🟢 [import/exports-last](import/exports-last)
+- ⚪️❓ [import/no-namespace](import/no-namespace)
+- 🔴 [import/extensions](import/extensions)
+- 🔴 [import/newline-after-import](import/newline-after-import)
+- 🟢 [import/prefer-default-export](import/prefer-default-export)
+- ⚪️ [import/max-dependencies](import/max-dependencies)
+- 🔴 [import/no-unassigned-import](import/no-unassigned-import)
+- ⚪️❓ [import/no-named-default](import/no-named-default)
+- ⚪️ [import/no-default-export](import/no-default-export)
+- ⚪️ [import/no-named-export](import/no-named-export)
+- ⚪️ [import/no-anonymous-default-export](import/no-anonymous-default-export)

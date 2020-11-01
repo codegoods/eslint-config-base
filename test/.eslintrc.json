@@ -1,0 +1,12 @@
+{
+  "extends": "..",
+  "env": {"node": true},
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/no-unused-modules": "off",
+    "import/no-commonjs": "off"
+  }
+}
