@@ -10,7 +10,7 @@ const eslintRules = {
   'block-spacing': ['error', 'always'],
   'brace-style': ['error', 'stroustrup'],
   'camelcase': ['error'],
-  'comma-dangle': ['warn', 'always-multiline'],
+  'comma-dangle': ['error', 'always-multiline'],
   'comma-spacing': ['error', {
     after: true,
     before: false,

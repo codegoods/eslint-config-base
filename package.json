@@ -1,6 +1,6 @@
 {
   "name": "@codegoods/eslint-config-base",
-  "version": "3.0.0",
+  "version": "3.0.0-beta.1",
   "description": "ESLint sharable configuration file",
   "author": "rumkin <dev@rumk.in>",
   "homepage": "https://github.com/codegoods/eslint-config-base",
