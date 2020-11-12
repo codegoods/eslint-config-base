@@ -126,6 +126,7 @@ Special marks:
 - 🔴 [no-useless-concat](https://eslint.org/docs/rules/no-useless-concat)
 - ⚪️ [no-useless-escape](https://eslint.org/docs/rules/no-useless-escape)
 - 🔴 [no-useless-return](https://eslint.org/docs/rules/no-useless-return)
+- 🔴 [no-var](https://eslint.org/docs/rules/no-var)
 - 🟡 [no-void](https://eslint.org/docs/rules/no-void)
 - ⚪️ [no-warning-comments](https://eslint.org/docs/rules/no-warning-comments)
 - ⚪️ [no-with](https://eslint.org/docs/rules/no-with)

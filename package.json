@@ -1,6 +1,6 @@
 {
   "name": "@codegoods/eslint-config-base",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "ESLint sharable configuration file",
   "main": "index.js",
   "scripts": {
